@@ -42,7 +42,7 @@
 - [Requests](1%20Python/docs/Requests.md)
 - [Sets](1%20Python/docs/Sets.md)
 ### Labs
-- [lab01-turtle](1%20Python/labs/lab01-setup.md)
+- [lab01-setup](1%20Python/labs/lab01-setup.md)
 - [lab02-madlib](1%20Python/labs/lab02-madlib.md)
 ### Practice
 - [practice1-fundamentals](1%20Python/practice/practice1-fundamentals.md)
