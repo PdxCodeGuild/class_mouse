@@ -54,3 +54,4 @@
 - [practice6-regex](1%20Python/practice/practice6-regex.md)
 
 ### Solutions
+- [Lab02](solutions/python/lab2.py)
