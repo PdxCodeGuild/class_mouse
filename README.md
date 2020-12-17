@@ -55,3 +55,4 @@
 
 ### Solutions
 - [Lab02](solutions/python/lab2.py)
+- [Lab03](solutions/python/lab3.py)
