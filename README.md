@@ -45,6 +45,9 @@
 - [lab01-setup](1%20Python/labs/lab01-setup.md)
 - [lab02-madlib](1%20Python/labs/lab02-madlib.md)
 - [lab03-grading](1%20Python/labs/lab03-grading.md)
+- [lab04-magic 8 ball](1%20Python/labs/lab04-magic_8_ball.md)
+- [lab05-random emoticon](1%20Python/labs/lab05-random_emoticon.md)
+- [lab06-random password](1%20Python/labs/lab06-random_password.md)
 ### Practice
 - [practice1-fundamentals](1%20Python/practice/practice1-fundamentals.md)
 - [practice2-strings](1%20Python/practice/practice2-strings.md)
