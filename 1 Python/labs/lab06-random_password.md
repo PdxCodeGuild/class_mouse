@@ -16,4 +16,4 @@ Allow the user to enter the value of `n`, remember to convert its type to an int
 
 ## Version 3 (optional)
 
-Ask the user for how many lowercase letters, uppercase letters, numbers, and special characters they'd like in their password. You do not want the pieces in order (e.g. 3 lowercase letters followed by 3 uppercase letters...). You can use `list(password_string)` or `password_string.split('')` to convert the string to a list, `random.shuffle(password_list)` to shuffle it, and then `''.join(password_list)` to turn it back into a string.
+Ask the user for how many lowercase letters, uppercase letters, numbers, and special characters they'd like in their password. You do not want the pieces in order (e.g. 3 lowercase letters followed by 3 uppercase letters...). You can use `list(password_string)` to convert the string to a list, `random.shuffle(password_list)` to shuffle it, and then `''.join(password_list)` to turn it back into a string.
