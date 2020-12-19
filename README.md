@@ -42,12 +42,14 @@
 - [Requests](1%20Python/docs/Requests.md)
 - [Sets](1%20Python/docs/Sets.md)
 ### Labs
-- [lab01-setup](1%20Python/labs/lab01-setup.md)
-- [lab02-madlib](1%20Python/labs/lab02-madlib.md)
-- [lab03-grading](1%20Python/labs/lab03-grading.md)
-- [lab04-magic 8 ball](1%20Python/labs/lab04-magic_8_ball.md)
-- [lab05-random emoticon](1%20Python/labs/lab05-random_emoticon_generator.md)
-- [lab06-random password](1%20Python/labs/lab06-random_password.md)
+- [lab01-Setup](1%20Python/labs/lab01-setup.md)
+- [lab02-Madlib](1%20Python/labs/lab02-madlib.md)
+- [lab03-Grading](1%20Python/labs/lab03-grading.md)
+- [lab04-Magic 8 ball](1%20Python/labs/lab04-magic_8_ball.md)
+- [lab05-Random emoticon](1%20Python/labs/lab05-random_emoticon_generator.md)
+- [lab06-Random password](1%20Python/labs/lab06-random_password.md)
+- [lab07-Rock Paper Scissors](1%20Python/labs/lab07-rock_paper_scissors.md)
+- [lab08-Guess the number](1%20Python/labs/lab08-guess_the_number.md)
 ### Practice
 - [practice1-fundamentals](1%20Python/practice/practice1-fundamentals.md)
 - [practice2-strings](1%20Python/practice/practice2-strings.md)
@@ -57,5 +59,6 @@
 - [practice6-regex](1%20Python/practice/practice6-regex.md)
 
 ### Solutions
-- [Lab02](solutions/python/lab2.py)
-- [Lab03](solutions/python/lab3.py)
+- [Lab02-Madlib](solutions/python/lab2_madlib.py)
+- [Lab03-Grading](solutions/python/lab3_grading.py)
+- [Lab05-Emoticons](solutions/python/lab5_emoticon.py)
