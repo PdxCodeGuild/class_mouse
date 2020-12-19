@@ -59,6 +59,7 @@
 - [practice6-regex](1%20Python/practice/practice6-regex.md)
 
 ### Solutions
-- [Lab02-Madlib](solutions/python/lab2_madlib.py)
-- [Lab03-Grading](solutions/python/lab3_grading.py)
-- [Lab05-Emoticons](solutions/python/lab5_emoticon.py)
+- [Practice1-Fundamentals](1%20Python/solutions/practice1.py)
+- [Lab02-Madlib](1%20Python/solutions/lab2_madlib.py)
+- [Lab03-Grading](1%20Python/solutions/lab3_grading.py)
+- [Lab05-Emoticons](1%20Python/solutions/lab5_emoticon.py)
