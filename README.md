@@ -50,6 +50,7 @@
 - [lab06-Random password](1%20Python/labs/lab06-random_password.md)
 - [lab07-Rock Paper Scissors](1%20Python/labs/lab07-rock_paper_scissors.md)
 - [lab08-Guess the number](1%20Python/labs/lab08-guess_the_number.md)
+- [lab09-Rot 13](1%20Python/labs/lab09-rot13.md)
 ### Practice
 - [practice1-fundamentals](1%20Python/practice/practice1-fundamentals.md)
 - [practice2-strings](1%20Python/practice/practice2-strings.md)
@@ -63,3 +64,10 @@
 - [Lab02-Madlib](1%20Python/solutions/lab2_madlib.py)
 - [Lab03-Grading](1%20Python/solutions/lab3_grading.py)
 - [Lab05-Emoticons](1%20Python/solutions/lab5_emoticon.py)
+- [Lab06-Random Password Generator](1%20Python/solutions/lab6_random_password_generator.py)
+- [Lab06-Random Password Generator V2](1%20Python/solutions/lab6_random_password_generatorv2.py)
+- [Lab07-Rock Paper Scissors](1%20Python/solutions/lab7_rock_paper_scissors.py)
+- [Lab07-Rock Paper Scissors No If](1%20Python/solutions/lab7_rock_paper_scissors_no_if.py)
+- [Lab08-Guess the Number](1%20Python/solutions/lab8_guess_the_number.py)
+- [Lab08-Guess the Number(Random Search)](1%20Python/solutions/lab8_v5.py)
+- [Lab08-Guess the Number(Binary Search)](1%20Python/solutions/lab8_v6.py)
