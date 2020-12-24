@@ -13,7 +13,7 @@ Would you like make more change? no
 Have a good day!
 ```
 
-## Version 2
+## Version 2 (optional)
 
 Instead of hard-coding the coins, store them in a list of tuples. This way you can make custom coins.
 
