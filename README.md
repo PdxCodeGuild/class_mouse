@@ -52,6 +52,7 @@
 - [lab08-Guess the number](1%20Python/labs/lab08-guess_the_number.md)
 - [lab09-Rot 13](1%20Python/labs/lab09-rot13.md)
 - [lab11-Make Change](1%20Python/labs/lab11-make_change.md)
+- [lab12-Blackjack Advice](1%20Python/labs/lab12-blackjack_advice.md)
 - [Mob-Pick 6](1%20Python/labs/mobbed-pick6.md)
 ### Practice
 - [practice1-fundamentals](1%20Python/practice/practice1-fundamentals.md)
