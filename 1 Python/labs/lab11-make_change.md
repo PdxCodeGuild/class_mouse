@@ -19,7 +19,7 @@ Instead of hard-coding the coins, store them in a list of tuples. This way you c
 
 ```python
 coins = [
-    ('half-dollar', 50)
+    ('half-dollar', 50),
     ('quarter', 25),
     ('dime', 10),
     ('nickel', 5),
