@@ -53,6 +53,7 @@
 - [lab09-Rot 13](1%20Python/labs/lab09-rot13.md)
 - [lab11-Make Change](1%20Python/labs/lab11-make_change.md)
 - [lab12-Blackjack Advice](1%20Python/labs/lab12-blackjack_advice.md)
+- [lab13-Unit Converter](1%20Python/labs/lab13-unit_converter.md)
 - [Mob-Pick 6](1%20Python/labs/mobbed-pick6.md)
 ### Practice
 - [practice1-fundamentals](1%20Python/practice/practice1-fundamentals.md)
