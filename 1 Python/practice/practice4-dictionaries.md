@@ -47,7 +47,7 @@ print(reverse_dict({'a': 1, 'b': 2})) # {1: 'a', 2: 'b'}
 
 ## Problem 5
 
-Write a function that mergest two lists of equal length into a dictionary, with the first list containing the keys, and the second containing the values.
+Write a function that merges two lists of equal length into a dictionary, with the first list containing the keys, and the second containing the values.
 
 ```python
 def merge(list1, list2):
@@ -58,16 +58,6 @@ print(merge(['a', 'b'], [1, 2])) # {'a': 1, 'b': 2}
 
 ## Problem 6
 
-Write a function that merges two lists of equal length into a dictionary, with the first list containing the keys, and the second containing the values.
-
-```python
-def merge(list1, list2):
-    ...
-print(merge(['a', 'b'], [1, 2])) # {'a': 1, 'b': 2}
-```
-
-## Problem 7
-
 Write a function that takes a dictionary and returns a new dictionary without values less than 10.
 
 ```python
@@ -76,7 +66,7 @@ def remove_less_than_10(d):
 print(remove_less_than_10({'a': 5, 'b': 15, 'c': 12})) # {'b': 15, 'c': 12}
 ```
 
-## Problem 8
+## Problem 7
 
 Write a function to calculate the average of the lists in a dictionary.
 
@@ -86,7 +76,7 @@ def average_values(d):
 print(average_values({'a': [1, 5, 6], 'b': [2, 8], 'c': [3]})) # {'a': 4, 'b': 5, 'c': 3}
 ```
 
-## Problem 9
+## Problem 8
 
 Write a function that takes two dictionaries and returns a new dictionary with the values from each added together if they have the same key
 
@@ -98,9 +88,9 @@ d2 = {'a': 300, 'b': 200, 'd': 400}
 print(merge_dictionaries(d1, d2)) # {'a': 400, 'b': 400, 'c': 300, 'd': 400}
 ```
 
-## Problem 10
+## Problem 9
 
-Write a function that takes a list of strings and counts of the number of occurances.
+Write a function that takes a list of strings and counts of the number of occurrences.
 
 ```python
 def count_votes(votes):
@@ -108,7 +98,3 @@ def count_votes(votes):
 votes = ['john', 'johnny', 'john', 'jackie', 'jamie', 'jackie', 'jamie', 'jamie', 'john', 'johnny', 'jamie', 'johnny', 'john']
 print(count_votes(votes)) # {'john': 4, 'johnny': 3, 'jackie': 2, 'jamie': 4}
 ```
-
-
-
-

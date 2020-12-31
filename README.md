@@ -55,6 +55,10 @@
 - [lab12-Blackjack Advice](1%20Python/labs/lab12-blackjack_advice.md)
 - [lab13-Unit Converter](1%20Python/labs/lab13-unit_converter.md)
 - [Mob-Pick 6](1%20Python/labs/mobbed-pick6.md)
+- [Mob-Bogosort](1%20Python/labs/mobbed-bogosort.md)
+- [Mob-Credit Card Validator](1%20Python/labs/mobbed-credit_card_validator.md)
+- [Mob-Hangman](1%20Python/labs/mobbed-hangman.md)
+- [Mob-LCR](1%20Python/labs/mobbed-lcr.md)
 ### Practice
 - [practice1-fundamentals](1%20Python/practice/practice1-fundamentals.md)
 - [practice2-strings](1%20Python/practice/practice2-strings.md)
