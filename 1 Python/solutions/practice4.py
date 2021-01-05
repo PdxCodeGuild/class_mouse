@@ -58,5 +58,52 @@ def find_key(d, value):
     # return [key for key in d if d[key] == value][0] if [key for key in d if d[key] == value] else None
 
 
-print(find_key({'a': 1, 'b': 2}, 1)) # a
-print(find_key({'a': 1, 'b': 2}, 3)) # None
+# print(find_key({'a': 1, 'b': 2}, 1)) # a
+# print(find_key({'a': 1, 'b': 2}, 3)) # None
+
+
+# Problem 4
+# Write a function that takes a dictionary and returns a new dictionary with the keys and values reversed.
+
+def reverse_dict(d):
+    new_dict = {}
+    for key, value in d.items():
+        new_dict[value] = key
+
+    # for key in d:
+    #     new_dict[d[key]] = key
+
+    return new_dict
+
+    # return {d[key]: key for key in d}
+
+
+# print(reverse_dict({'a': 1, 'b': 2})) # {1: 'a', 2: 'b'}
+
+# Problem 5
+# Write a function that merges two lists of equal length into a dictionary, with the first list containing the keys, and the second containing the values.
+
+def merge(list1, list2):
+    merged_dict = {}
+    for index in range(len(list1)):
+        # merged_dict[list1[index]] = list2[index]
+        merged_dict.update({list1[index]: list2[index]})
+
+    return merged_dict
+
+    # return {list1[index]: list2[index] for index in range(len(list1))}
+
+# print(merge(['a', 'b'], [1, 2])) # {'a': 1, 'b': 2}
+
+# Problem 6
+# Write a function that takes a dictionary and returns a new dictionary without values less than 10.
+
+def remove_less_than_10(d):
+    new_dict = {}
+    for d_index in d:
+        if d[d_index] > 10:
+            new_dict[d_index] = d[d_index]
+
+    return new_dict
+
+# print(remove_less_than_10({'a': 5, 'b': 15, 'c': 12})) # {'b': 15, 'c': 12}

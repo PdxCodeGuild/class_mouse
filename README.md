@@ -54,6 +54,8 @@
 - [lab11-Make Change](1%20Python/labs/lab11-make_change.md)
 - [lab12-Blackjack Advice](1%20Python/labs/lab12-blackjack_advice.md)
 - [lab13-Unit Converter](1%20Python/labs/lab13-unit_converter.md)
+- [lab14-Number to Phrase](1%20Python/labs/lab14-number_to_phrase.md)
+- [lab13-Count Words](1%20Python/labs/lab15-count_words.md)
 - [Mob-Pick 6](1%20Python/labs/mobbed-pick6.md)
 - [Mob-Bogosort](1%20Python/labs/mobbed-bogosort.md)
 - [Mob-Credit Card Validator](1%20Python/labs/mobbed-credit_card_validator.md)
