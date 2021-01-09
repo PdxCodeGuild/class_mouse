@@ -58,6 +58,7 @@
 - [lab15-Count Words](1%20Python/labs/lab15-count_words.md)
 - [lab16-ARI](1%20Python/labs/lab16-ari.md)
 - [lab17-Quotes API](1%20Python/labs/lab17-quotes_api.md)
+- [Mob-Jackalope](1%20Python/labs/mobbed-jackalope.md)
 - [Mob-Pick 6](1%20Python/labs/mobbed-pick6.md)
 - [Mob-Bogosort](1%20Python/labs/mobbed-bogosort.md)
 - [Mob-Credit Card Validator](1%20Python/labs/mobbed-credit_card_validator.md)
