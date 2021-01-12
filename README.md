@@ -64,6 +64,7 @@
 - [Mob-Credit Card Validator](1%20Python/labs/mobbed-credit_card_validator.md)
 - [Mob-Hangman](1%20Python/labs/mobbed-hangman.md)
 - [Mob-LCR](1%20Python/labs/mobbed-lcr.md)
+- [Mini Capstone](1%20Python/labs/mini_capstone.md)
 ### Practice
 - [practice1-fundamentals](1%20Python/practice/practice1-fundamentals.md)
 - [practice2-strings](1%20Python/practice/practice2-strings.md)
