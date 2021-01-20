@@ -7,6 +7,10 @@
   - [Labs](#labs)
   - [Practice](#practice)
   - [Solutions](#solutions)
+- [2 HTML/CSS](#2-HTML/CSS)
+  - [Docs](#docs)
+  - [Labs](#labs)
+  - [Solutions](#solutions)
 
 ## 0 General
 - [01 - Class Structure](0%20General/01%20-%20Class%20Structure.md)
@@ -59,7 +63,7 @@
 - [lab16-ARI](1%20Python/labs/lab16-ari.md)
 - [lab17-Quotes API](1%20Python/labs/lab17-quotes_api.md)
 - [lab18-ATM](1%20Python/labs/lab18-atm.md)
-- [lab19-ATM](1%20Python/labs/lab19-rain_data.md)
+- [lab19-Rain Data](1%20Python/labs/lab19-rain_data.md)
 - [Mob-Jackalope](1%20Python/labs/mobbed-jackalope.md)
 - [Mob-Pick 6](1%20Python/labs/mobbed-pick6.md)
 - [Mob-Bogosort](1%20Python/labs/mobbed-bogosort.md)
@@ -96,3 +100,10 @@
 - [Lab16-ARI](1%20Python/solutions/lab16_ari.py)
 - [Lab17-Quotes API](1%20Python/solutions/lab17_quotes_api.py)
 - [Lab18-ATM](1%20Python/solutions/lab18_atm.py)
+
+
+## 2 HTML/CSS
+### Docs
+- [01 - HTML Overview](2%20HTML%20+%20CSS/docs/01%20-%20HTML%20Overview.md)
+- [02 - HTML Elements](2%20HTML%20+%20CSS/docs/02%20-%20HTML%20Elements.md)
+- [03 - HTML Forms](2%20HTML%20+%20CSS/docs/03%20-%20HTML%20Forms.md)
