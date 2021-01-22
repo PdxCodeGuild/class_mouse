@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 16px;
+    font-family: 'Roboto Mono', monospace;
+}
+.btn{
+    border: 1px #FEEE89 solid;
+    border-radius: 8px;
+    padding: .5em 1em;
+    background-color: #FEEE89;
+    margin: 1em;
+}
+.link1 {
+    color: green;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: repeating-linear-gradient(135deg, rgb(0,0,0) 0px, rgb(0,0,0) 10px,transparent 10px, transparent 11px),repeating-linear-gradient(22.5deg, rgb(0,0,0) 0px, rgb(0,0,0) 10px,transparent 10px, transparent 11px),linear-gradient(90deg, hsl(194,74%,56%),hsl(266,74%,56%),hsl(338,74%,56%),hsl(50,74%,56%),hsl(122,74%,56%));
+    padding: 1em;
+}
+h1 {
+    text-align: center;
+    margin: 0;
+    justify-self: flex-start;
+    color: #FEEE89;
+    font-family: 'Hachi Maru Pop', cursive;
+}
+.section1{
+    height: 15vw;
+    width: 15vw;
+    background-image: url('https://images.unsplash.com/photo-1425082661705-1834bfd09dca?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1355&q=80');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    clip-path: circle(50%);
+}
+
+.section1, .section2{
+    font-size: 1.5em;
+}
+
+div > a{
+
+}
+
+#some-id{
+
+}
+.mouse {
+    width: 100%;
+    clip-path: circle(50%);
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    color: #FEEE89;
+    background-color: black;
+    width: 100vw;
+}
