@@ -118,9 +118,9 @@
 
 ### Labs
 - [lab01-bio](2%20HTML%20+%20CSS/labs/lab01-bio.md)
-- [lab2-blog](2%20HTML%20+%20CSS/labs/lab2-blog.md)
-- [lab3-company](2%20HTML%20+%20CSS/labs/lab3-company.md)
-- [lab4-personal_portfolio](2%20HTML%20+%20CSS/labs/lab4-personal_portfolio.md)
+- [lab02-blog](2%20HTML%20+%20CSS/labs/lab2-blog.md)
+- [lab03-company](2%20HTML%20+%20CSS/labs/lab3-company.md)
+- [lab04-personal_portfolio](2%20HTML%20+%20CSS/labs/lab4-personal_portfolio.md)
 
 
 ### Solutions
