@@ -124,3 +124,5 @@
 
 
 ### Solutions
+- [lab01-bio w/ bulma](2%20HTML%20+%20CSS/solutions/lab1-bio-bulma.html)
+- [lab01-bio w/ materialize](2%20HTML%20+%20CSS/solutions/lab1-bio-materialize.html)
