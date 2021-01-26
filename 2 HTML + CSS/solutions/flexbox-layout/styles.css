@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+img {
+    max-width: 50%;
+    float: right;
+}
+
+main{
+    display: flex;
+    flex-wrap: nowrap;
+    min-height: 100vh;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+}
+
+.pink{
+    min-height: 100vh;
+    background-color: #FF8787;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.blue {
+    min-height: 100vh;
+    background-color: #73B3FF;
+    width: 25%;
+    justify-content: flex-end;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+a{
+    margin-top: 12px;
+}

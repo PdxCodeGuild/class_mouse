@@ -1,0 +1,12 @@
+.crop {
+    object-fit: cover;
+    object-position: 20% 10%;
+}
+
+figure{
+    max-width: 50%;
+}
+
+p{
+    max-width: 50%;
+}
