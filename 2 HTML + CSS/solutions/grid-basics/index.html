@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            border: 4px solid orange;
+            background: gray;
+            text-align: center;
+            color: white;
+            font-size: 24px;
+            /* height: 400px; */
+        }
+
+        main{
+            display: grid;
+            grid-template-columns: 50px 1fr 1fr 1fr 1fr 50px;
+            grid-template-rows: 80px repeat(4, 200px) 40px;
+
+            gap: 10px 50px;
+            /* grid-column-gap: 10px;
+            grid-row-gap: 20px; */
+
+            grid-template-areas:
+                ". header header header header ."
+                ". article article article sidebar ."
+                ". article article article sidebar ."
+                ". article article article sidebar ."
+                ". article article article sidebar ."
+                ". footer footer footer footer ."
+            ;
+        }
+        .box1{
+            grid-area: header;
+        }
+        .box2{
+            grid-area: article;
+            overflow: scroll;
+            display: flex;
+            flex-direction: column-reverse;
+            align-items: center;
+        }
+        .box3{
+            grid-area: sidebar;
+        }
+        .box4{
+            height: 200px;
+            width: 200px;
+            display: block;
+        }
+        .box5{
+           grid-area: footer;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="box1">Header</div>
+        <div class="box2">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, minus quaerat debitis possimus ducimus sint exercitationem provident sunt soluta voluptates nostrum, sit aliquid nesciunt laborum iure? Possimus reiciendis corporis rerum.
+                Deserunt veritatis incidunt praesentium error? Minus, dolor. Labore similique impedit rem, sit debitis distinctio, aspernatur quaerat nihil neque voluptatibus deserunt tenetur fugit assumenda necessitatibus aut? Laboriosam quam laborum sapiente voluptatum!
+                Officia hic nam excepturi? Aliquid voluptate aspernatur nesciunt amet ex voluptatem eius quidem. Nam provident quis excepturi hic magnam, quidem quia veniam voluptatem fugit corporis libero, atque, voluptas natus iste?
+                Voluptates pariatur nesciunt doloribus iusto sint culpa cum sapiente, nisi eaque reiciendis. Itaque repellendus aut minus enim, harum tempore voluptatibus dolorem nam autem quibusdam facere sapiente, corporis vero laudantium dignissimos.
+                Facere tempore dolor laborum doloribus excepturi totam tempora sint placeat quidem, pariatur atque ea, assumenda dolore iure veritatis possimus eius quod eaque vitae esse saepe libero dolores aut porro! Similique?
+                Incidunt officiis commodi qui suscipit harum, ab laboriosam modi, aperiam sint quisquam saepe aliquid, voluptas iste atque voluptatibus quasi dicta itaque. Aperiam tenetur assumenda, saepe sed possimus quos enim nihil!
+                Distinctio quasi vitae, quos voluptates maiores fuga assumenda nisi recusandae unde quis omnis quaerat a perspiciatis aliquid, dolorem doloribus! Sit nobis labore earum aliquid, at a quam hic. Quam, totam.
+                Aperiam id accusamus vitae illo, quaerat ducimus incidunt dolores maiores ipsam doloribus pariatur nobis aliquam non quia saepe autem molestias veritatis voluptatibus corporis unde, blanditiis molestiae animi tenetur? Officia, suscipit?
+                Officia ducimus laudantium omnis praesentium perferendis reiciendis fugit, porro id perspiciatis ratione, dolores expedita veritatis in maxime facere, adipisci fuga exercitationem atque. Corporis quo vero nam dolorum iure. Natus, optio?
+                Impedit possimus praesentium blanditiis libero aut similique suscipit laboriosam asperiores, quod saepe adipisci aspernatur. Excepturi, similique aspernatur deleniti illo numquam deserunt totam omnis nobis maxime perspiciatis hic dolorem animi dolore!</p>
+            <img src="https://picsum.photos/200" class="box4" />
+        </div>
+        <div class="box3">Sidebar</div>
+        <div class="box5">Footer</div>
+    </main>
+</body>
+</html>
