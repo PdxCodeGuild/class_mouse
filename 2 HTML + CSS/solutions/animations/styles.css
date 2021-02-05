@@ -1,0 +1,44 @@
+.box{
+    background-color: darkslategrey;
+    height: 400px;
+    width: 400px;
+    animation-name: move-right;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
+    animation-direction: alternate;
+    animation-iteration-count: 3;
+}
+
+@keyframes move-right{
+    50% {
+        transform: translateX(200%);
+        background-color: aqua;
+        transform: rotate(90deg);
+    }
+    100% {
+        transform: translateX(100%);
+        background-color: crimson;
+        box-shadow: 12px 12px 10px black;
+    }
+}
+
+.box:hover{
+    animation-play-state: paused;
+}
+
+.btn {
+    display: inline-block;
+    border-radius: 8px;
+    padding: .75em 1.5em;
+    box-shadow: 4px 4px 8px gray;
+    margin: 4em;
+    text-decoration: none;
+    transition: all 500ms;
+    color: gray;
+}
+
+.btn:active{
+    box-shadow: none;
+}

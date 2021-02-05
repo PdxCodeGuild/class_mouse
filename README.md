@@ -11,6 +11,10 @@
   - [Docs](#docs-1)
   - [Labs](#labs-1)
   - [Solutions](#solutions-1)
+- [3 JavaScript](#3-javascript)
+  - [Docs](#docs-2)
+  - [Labs](#labs-2)
+  - [Solutions](#solutions-2)
 
 ## 0 General
 - [01 - Class Structure](0%20General/01%20-%20Class%20Structure.md)
@@ -124,5 +128,33 @@
 
 
 ### Solutions
-- [lab01-bio w/ bulma](2%20HTML%20+%20CSS/solutions/lab1-bio-bulma.html)
-- [lab01-bio w/ materialize](2%20HTML%20+%20CSS/solutions/lab1-bio-materialize.html)
+- [lab01-Bio w/ Bulma](2%20HTML%20+%20CSS/solutions/lab1-bio-bulma.html)
+- [lab01-Bio w/ Materialize](2%20HTML%20+%20CSS/solutions/lab1-bio-materialize.html)
+- [lab02-Blog](2%20HTML%20+%20CSS/solutions/lab2-blog)
+- [lab03-Company Home Page](2%20HTML%20+%20CSS/solutions/lab3-twitter)
+
+
+## 3 JavaScript
+### Docs
+- [01 - Overview](3%20JavaScript/docs/01%20-%20Overview.md)
+- [02 - JavaScript Fundamentals](3%20JavaScript/docs/02%20-%20JavaScript%20Fundamentals.md)
+- [03 - Numbers and Arithmetic](3%20JavaScript/docs/03%20-%20Numbers%20and%20Arithmetic.md)
+- [04 - Booleans, Comparisons and Conditionals](3%20JavaScript/docs/04%20-%20Booleans,%20Comparisons%20and%20Conditionals.md)
+- [05 - Strings](3%20JavaScript/docs/05%20-%20Strings.md)
+- [06 - Objects](3%20JavaScript/docs/06%20-%20Objects.md)
+- [07 - Loops](3%20JavaScript/docs/07%20-%20Loops.md)
+- [08 - Arrays](3%20JavaScript/docs/08%20-%20Arrays.md)
+- [09 - Functions](3%20JavaScript/docs/09%20-%20Functions.md)
+- [10 - Classes](3%20JavaScript/docs/10%20-%20Classes.md)
+- [11 - DOM Manipulation](3%20JavaScript/docs/11%20-%20DOM%20Manipulation.md)
+- [12 - Events](3%20JavaScript/docs/12%20-%20Events.md)
+- [13 - APIs and Ajax](3%20JavaScript/docs/13%20-%20APIs%20and%20Ajax.md)
+- [Canvas Drawing](3%20JavaScript/docs/Canvas%20Drawing.md)
+- [jQuery](3%20JavaScript/docs/jQuery.md)
+- [Python vs JavaScript](3%20JavaScript/docs/Python%20vs%20JavaScript.md)
+- [Regex and Form Validation](3%20JavaScript/docs/Regex%20and%20Form%20Validation.md)
+- [Timing](3%20JavaScript/docs/Timing.md)
+- [Vue vs Vanilla](3%20JavaScript/docs/Vue%20vs%20Vanilla.md)
+- [Vue](3%20JavaScript/docs/Vue.md)
+### Labs
+### Solutions
