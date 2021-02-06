@@ -1,0 +1,11 @@
+
+
+.animate{
+    animation: move-right 10s ease-in-out infinite alternate;
+}
+
+@keyframes move-right{
+    100% {
+        transform: translateX(1000px);
+    }
+}
