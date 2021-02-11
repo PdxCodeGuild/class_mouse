@@ -93,9 +93,8 @@ You can view a long list on [wikipedia](https://en.wikipedia.org/wiki/List_of_Ja
 - [AngularJS](https://angularjs.org/)
 - [Angular](https://angular.io/)
 - [React](https://facebook.github.io/react/)
+- [Svelte](https://svelte.dev)
 - [Vue.js](https://vuejs.org/)
-- [Ember.js](https://www.emberjs.com/)
-- [Riot.js](http://riotjs.com/)
 
 ### Data Visualization
 
