@@ -33,11 +33,28 @@ function sort(array) {
     for (elem of arrayToSort) {
         let li = document.createElement('li')
         li.innerText = elem
-        li.addEventListener('click', function () {
+        li.addEventListener('click', () => {
             li.remove()
         })
         collection.push(li)
     }
 
     return collection
+}
+
+
+person = {
+    name: 'Anthony',
+    age: 28,
+    funAge: function () {
+        const getName = () => {
+            return this.name
+        }
+
+        console.log(getName())
+        return this.age
+    },
+    arrAge: () => {
+        return this.age
+    }
 }
