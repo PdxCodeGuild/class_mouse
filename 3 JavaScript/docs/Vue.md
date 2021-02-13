@@ -46,7 +46,7 @@ You can include Vue in your page like so:
 
 
 ```html
-<!-- html element represnting the app, referenced by 'el' -->
+<!-- html element representing the app, referenced by 'el' -->
 <div id="app">
   <!-- display 'message' from the 'data' part of the app in the page -->
   <span>{{ message }}</span>

@@ -157,4 +157,15 @@
 - [Vue vs Vanilla](3%20JavaScript/docs/Vue%20vs%20Vanilla.md)
 - [Vue](3%20JavaScript/docs/Vue.md)
 ### Labs
+- [Lab01-03 Pick 3](3%20JavaScript/labs/lab01-03_pick3.md)
+- [Lab04 TodoList](3%20JavaScript/labs/lab04-todolist.md)
+- [Lab05 Vue Redo](3%20JavaScript/labs/lab05-vue_redo.md)
+- [Lab06 Cat API](3%20JavaScript/labs/lab06-cat_api.md)
+- [Lab07 Weather API](3%20JavaScript/labs/lab07-weather_api.md)
+- [Lab08 Quiz](3%20JavaScript/labs/lab08-quiz.md)
+  - [Vue Template](3%20JavaScript/labs/template_vue.html)
+  - [Vue/Axios Template](3%20JavaScript/labs/template_vue_axios.html)
 ### Solutions
+- [Grading](3%20JavaScript/solutions/grading)
+- [ROT13](3%20JavaScript/solutions/ROT13)
+- [Hangman](3%20JavaScript/solutions/Hangman)
