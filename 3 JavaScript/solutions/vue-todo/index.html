@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vue Todo</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script defer src="main.js"></script>
+</head>
+
+<body>
+    <div id="todoApp">
+        <div>
+            <h1>Class Mouse Todo App</h1>
+        </div>
+        <div>
+            <input v-model="userInput" v-on:keydown.enter="addTodo" type="text" placeholder="What needs doing?">
+            <label for="priority">Priority</label>
+            <select v-model="priority" name="priority" id="priority">
+                <option value="low">Low</option>
+                <option value="medium">Medium</option>
+                <option value="high">High</option>
+            </select>
+            <button v-on:click="addTodo">Add</button>
+        </div>
+        <div>
+            <ul>
+                <li v-for="(todo, i) in todos" v-bind:class="todo.priority">
+                    {{todo.title}}
+                    <button v-on:click="removeTodo(i)">&times;</button>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>

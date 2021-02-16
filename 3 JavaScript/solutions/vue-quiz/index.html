@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"
+        integrity="sha512-bZS47S7sPOxkjU/4Bt0zrhEtWx0y0CRkhEp8IckzK+ltifIIE9EMIMTuT/mEzoIMewUINruDBIR/jJnbguonqQ=="
+        crossorigin="anonymous"></script>
+    <script defer src="main.js"></script>
+</head>
+
+<body>
+    <div id="app">
+        <div class="quiz-builder">
+            <select v-model="categoryCode" name="categories" id="categories">
+                <option disabled value="">Pick a Category</option>
+                <option v-for="category in categories" v-bind:value="category.id">{{category.name}}</option>
+            </select>
+            <select v-model="amount" name="amount" id="amount">
+                <option disabled value="">Number of questions:</option>
+                <option value="5">5</option>
+                <option value="10">10</option>
+                <option value="15">15</option>
+                <option value="20">20</option>
+            </select>
+            <select v-model="difficulty" name="difficulty" id="difficulty">
+                <option disabled value="">Select difficulty</option>
+                <option value="easy">Easy</option>
+                <option value="medium">Medium</option>
+                <option value="hard">Hard</option>
+            </select>
+            <select v-model="type" name="type" id="type">
+                <option disabled value="">Select type</option>
+                <option value="multiple">Multiple</option>
+                <option value="boolean">True/False</option>
+            </select>
+            <button v-on:click="getQuiz">Generate Quiz</button>
+        </div>
+        <div class="quiz">
+            <div v-for="question of questions" class="question">
+                <p>{{ decodeHTML(question.question) }}</p>
+                <div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

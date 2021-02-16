@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Vue.js -->
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <!-- Axios.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.20.0/axios.min.js"
+        integrity="sha512-quHCp3WbBNkwLfYUMd+KwBAgpVukJu5MncuQaWXgCrfgcxCJAq/fo+oqrRKOj+UKEmyMCG3tb8RB63W+EmrOBg=="
+        crossorigin="anonymous"></script>
+    <script defer src="main.js"></script>
+</head>
+
+<body>
+    <div id="app">
+        <img v-show="disabled_button" v-bind:src="cool_pic" alt="">
+        <h1>{{ message }}</h1>
+        <input v-model="userInput" type="text">
+        <button v-on:click="updateHeader">Click to change</button>
+        <ul>
+            <li v-for="hero in super_heroes">{{hero}}</li>
+        </ul>
+    </div>
+</body>
+
+</html>
