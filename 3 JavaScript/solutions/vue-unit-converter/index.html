@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit Convorter</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.20.0/axios.min.js"
+        integrity="sha512-quHCp3WbBNkwLfYUMd+KwBAgpVukJu5MncuQaWXgCrfgcxCJAq/fo+oqrRKOj+UKEmyMCG3tb8RB63W+EmrOBg=="
+        crossorigin="anonymous"></script>
+    <script defer src="secrets.js"></script>
+    <script defer src="main.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="app" class="container row mx-auto">
+        <!-- distance -->
+        <input v-model="inputDistance" type="text" class="col-6">
+        <!-- the starting units -->
+        <input disabled v-bind:value="outputDistance" class="col-6" />
+        <div class="col-6">
+            <label for="starting-unit">From:</label>
+            <select v-model="startingUnit" name="starting-unit" id="starting-unit">
+                <option disabled value="">Select Starting Unit</option>
+                <option v-for="unit in units" v-bind:value="unit">{{unit}}</option>
+            </select>
+        </div>
+        <!-- and the units to convert to -->
+        <div class="col-6">
+            <label for="ending-unit">To:</label>
+            <select v-model="endingUnit" name="ending-unit" id="ending-unit">
+                <option disabled value="">Select Ending Unit</option>
+                <option v-for="unit in units" v-bind:value="unit">{{unit}}</option>
+            </select>
+        </div>
+        <button v-on:click="convert" class="btn btn-success offset-4 col-4">Convert</button>
+        <video width="600" autoplay loop v-bind:src="gif_url" alt="random Gif"></video>
+    </div>
+</body>
+
+</html>
