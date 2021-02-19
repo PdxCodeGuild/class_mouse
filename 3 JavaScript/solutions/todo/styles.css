@@ -1,0 +1,49 @@
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size: 4em;
+}
+
+.lists{
+    display: flex;
+}
+.btn{
+    background-color: #fff;
+    border: none;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+.btn-primary{
+}
+
+.btn > i{
+    font-size: 32px;
+}
+
+.fa-trash-o{
+    font-size: 29px !important;
+    color: orangered;
+}
+
+.fa-check-square-o{
+    color: green;
+}
+
+.todo-item{
+    display: flex;
+    align-items: flex-start;
+}
