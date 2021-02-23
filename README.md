@@ -162,7 +162,7 @@
 - [Lab05 Vue Redo](3%20JavaScript/labs/lab05-vue_redo.md)
 - [Lab06 Cat API](3%20JavaScript/labs/lab06-cat_api.md)
 - [Lab07 Weather API](3%20JavaScript/labs/lab07-weather_api.md)
-- [Lab08 Quiz](3%20JavaScript/labs/lab08-quiz.md)
+- [Lab08 Clock](3%20JavaScript/labs/lab08-clock.md)
   - [Vue Template](3%20JavaScript/labs/template_vue.html)
   - [Vue/Axios Template](3%20JavaScript/labs/template_vue_axios.html)
 ### Solutions
