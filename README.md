@@ -15,6 +15,10 @@
   - [Docs](#docs-2)
   - [Labs](#labs-2)
   - [Solutions](#solutions-2)
+- [4 Django](#4-django)
+  - [Docs](#docs-3)
+  - [Labs](#labs-3)
+  - [Solutions](#solutions-3)
 
 ## 0 General
 - [01 - Class Structure](0%20General/01%20-%20Class%20Structure.md)
@@ -169,3 +173,34 @@
 - [Grading](3%20JavaScript/solutions/grading)
 - [ROT13](3%20JavaScript/solutions/ROT13)
 - [Hangman](3%20JavaScript/solutions/Hangman)
+- [TodoList](3%20JavaScript/solutions/todo)
+- [Vue Grading](3%20JavaScript/solutions/vue-grading)
+- [Cat API](3%20JavaScript/solutions/vue-cats)
+- [Weather API](3%20JavaScript/solutions/weather-api)
+
+
+## 4 Django
+### Docs
+- [Django Overview](4%20Django/docs/01%20-%20Django%20Overview.md)
+- [Routes](4%20Django/docs/02%20-%20Routes.md)
+- [Views](4%20Django/docs/03%20-%20Views.md)
+- [Templates](4%20Django/docs/04%20-%20Templates.md)
+- [Models](4%20Django/docs/05%20-%20Models.md)
+- [User Management](4%20Django/docs/06%20-%20User%20Management.md)
+- [Media Files](4%20Django/docs/07%20-%20Media%20Files.md)
+- [Advanced Topics](4%20Django/docs/08%20-%20Advanced%20Topics.md)
+- [Django Quickstart](4%20Django/docs/Django%20Quickstart.md)
+- [Class-Based Views](4%20Django/docs/Class-Based%20Views.md)
+- [Databases](4%20Django/docs/Databases.md)
+- [Deployment](4%20Django/docs/Deployment.md)
+- [Email](4%20Django/docs/Email.md)
+- [Forms](4%20Django/docs/Forms.md)
+- [Syntax Reference](4%20Django/docs/Syntax%20Reference.md)
+### Labs
+- [Lab 01 Polls](4%20Django/labs/lab01-polls.md)
+- [Lab 02 Todo](4%20Django/labs/lab02-todo.md)
+- [Lab 03 URL Shortener](4%20Django/labs/lab03-url_shortener.md)
+- [Lab 04 Pokedex](4%20Django/labs/lab04-pokedex.md)
+- [Lab 05 Blog](4%20Django/labs/lab05-blog.md)
+- [Lab 06 Library](4%20Django/labs/lab06-library.md)
+### Solutions
