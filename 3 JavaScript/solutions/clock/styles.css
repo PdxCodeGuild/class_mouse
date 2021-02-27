@@ -1,0 +1,18 @@
+
+body, .stopwatch{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+.clock, .top{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.clock p, .stopwatch p{
+    font-size: 3rem;
+}
