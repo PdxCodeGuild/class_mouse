@@ -1,0 +1,26 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Polls</title>
+    <link rel="stylesheet" href="{% static 'polls/styles.css' %}">
+</head>
+
+<body>
+    {% if questions %}
+    <ul>
+        {% for question in questions %}
+        <li><a href="{% url 'polls:detail' question.id %}">{{question.question_text}}</a></li>
+        {% endfor %}
+    </ul>
+    {% else %}
+    <p>No polls available.</p>
+    {% endif %}
+</body>
+
+</html>
