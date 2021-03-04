@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up - Chirpy</title>
+</head>
+
+<body>
+    <div>
+        {% if error %}
+        {{error}}
+        {% endif %}
+        <form action="{% url 'signup' %}" method="post">
+            {% csrf_token %}
+            <input type="text" name="username" placeholder="Username: " value="{{username}}">
+            <input type="email" name="email" placeholder="Email: " value="{{email}}">
+            <input type="password" name="password" placeholder="Password: ">
+            <input type="password" name="confirm" placeholder="Confirm Password: ">
+            <input type="submit" value="Sign Up">
+        </form>
+    </div>
+</body>
+
+</html>

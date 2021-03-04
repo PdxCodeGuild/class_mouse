@@ -9,18 +9,27 @@
 </head>
 
 <body>
+    {% if user.is_authenticated %}
+    <a href="{% url 'logout' %}">logout</a>
+
     <form action="post/" method="post">
         {% csrf_token %}
-        <input type="text" name="author">
         <textarea name="message"></textarea>
         <input type="submit" value="Chirp!">
     </form>
+    {% else %}
+    <a href="{% url 'login' %}">Login</a>
+    <a href="{% url 'signup' %}">Sign Up</a>
+    {% endif %}
+
     {% for chirp in chirps %}
     <div>
         <h3>{{chirp.author}}</h3>
         <p>{{chirp.message}}</p>
         <p>{{chirp.posted_date}}</p>
+        {% if user == chirp.author %}
         <a href="delete/{{chirp.id}}/">remove chirp</a>
+        {% endif %}
     </div>
     {% endfor %}
 </body>
