@@ -1,0 +1,45 @@
+{% extends 'todos/base.html' %}
+
+{% block title %}
+Class Mouse
+{% endblock %}
+
+
+{% block content %}
+{% include 'todos/_navbar.html' %}
+
+
+<form action="{% url 'add_todo' %}" method="post">
+    {% csrf_token %}
+    <input type="text" name="description">
+    <select name="priority">
+        {% for priority in priorities %}
+        <option value="{{priority.name}}">{{priority.name}}</option>
+        {% endfor %}
+    </select>
+    <input class="btn" type="submit" value="Add">
+</form>
+{% if todos %}
+<h1>Todo:</h1>
+<ul>
+    {% for todo in todos %}
+    <li>
+        {{todo.priority}} - {{todo.description}}
+        <a class="btn" href="{% url 'complete' todo.id %}">complete</a>
+        <a class="btn" href="{% url 'delete' todo.id %}">&times;</a>
+    </li>
+    {% endfor %}
+</ul>
+{% endif %}
+{% if completed_todos %}
+<h1>Completed:</h1>
+<ul>
+    {% for todo in completed_todos %}
+    <li class="completed">
+        {{todo.priority}} - {{todo.description}}
+        <a class="btn" href="{% url 'delete' todo.id %}">&times;</a>
+    </li>
+    {% endfor %}
+</ul>
+{% endif %}
+{% endblock %}
