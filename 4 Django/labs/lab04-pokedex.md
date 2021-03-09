@@ -28,15 +28,8 @@ Write a [custom management command](../docs/01%20-%20Django%20Overview.md#custom
 
 Write a `view`, `route` and `template` to show a list of pokemon on the front page. You can either show all the information as a table, or show only their name and icon and link to a detail page with all their information. Use `<img src="...">` to display their front and back image.
 
-## Part 3
 
-Add a form at the top of your list of pokemon with a text input to search for pokemon. Only show pokemon that match that text input ([search](https://docs.djangoproject.com/en/3.0/topics/db/search/), [icontains](https://docs.djangoproject.com/en/3.0/ref/models/querysets/#std:fieldlookup-icontains), [stack overflow answer](https://stackoverflow.com/questions/38478635/search-using-multiple-fields-django-building-the-object-list)).
-
-## Part 4
-
-Use the django [paginator](https://docs.djangoproject.com/en/3.0/topics/pagination/) to only show 20 pokemon at a time, allow the user to switch between pages. [example](https://simpleisbetterthancomplex.com/tutorial/2016/08/03/how-to-paginate-with-django.html).
-
-## Part 5 (optional)
+## Part 4 (optional)
 
 Check out the [script](./pokedex.py) that creates the json file, you can use it to load even more pokemon into your database!
 
