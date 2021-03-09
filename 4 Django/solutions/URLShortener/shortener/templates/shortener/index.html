@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shortener</title>
+    <style>
+        .highlight {
+            background: rgba(60, 103, 245, 0.788);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Shorten your sites here!</h1>
+    <form action="{% url 'shortener:save' %}" method="post">
+        {% csrf_token %}
+        <input required type="url" placeholder="URL to be shortened" name="url">
+        <input type="submit" value="Submit">
+    </form>
+    <table>
+        <tr>
+            <th>Visits</th>
+            <th>Code</th>
+            <th>URL</th>
+        </tr>
+        {% for url in urls %}
+        <tr class="{% if url.code == highlight %} highlight {% endif %}">
+            <td>{{url.counter}}</td>
+            <td><a href="{% url 'shortener:forward' url.code %}">{{url.code}}</a></td>
+            <td><a href="{% url 'shortener:forward' url.code %}">{{url.url}}</a></td>
+        </tr>
+        {% endfor %}
+    </table>
+
+</body>
+
+</html>
