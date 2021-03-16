@@ -13,7 +13,7 @@ Pryced will allow users to upload a csv, then separate individual items into bud
 - Display budgets and spending on a dashboard
 
 ## Data Model
-![Example DB](ExampleDB.jpg)
+![Example DB](ExampleDB.png)
 - Month (Used mainly for displaying the current month on the dashboard)
     - Month Name
     - Year
