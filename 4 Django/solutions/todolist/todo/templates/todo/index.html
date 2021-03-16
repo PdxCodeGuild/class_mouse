@@ -38,17 +38,23 @@
         </div>
         <table class="table row">
             <thead>
-                <tr>
-                    <th scope="col">Todo</th>
-                    <th scope="col">Priority</th>
-                    <th scope="col">Completed Date</th>
+                <tr class="row">
+                    <th v-on:click="sort" class="col" scope="col">Todo</th>
+                    <th class="col" scope="col">Priority</th>
+                    <th class="col" scope="col">Completed Date</th>
+                    <th class="col" scope="col"></th>
                 </tr>
             </thead>
             <tbody>
-                <tr v-for="todo in todos">
-                    <td>[[todo.text]]</td>
-                    <td>[[todo.priority__name]]</td>
-                    <td>[[todo.completed_date]]</td>
+                <tr class="row" v-for="todo in todos">
+                    <td class="col">[[todo.text]]</td>
+                    <td class="col">[[todo.priority__name]]</td>
+                    <td class="col">[[todo.completed_date]]</td>
+                    <td class="col">
+                        <button class="btn btn-success" v-if="!todo.completed_date"
+                            v-on:click="completeTodo(todo.id)">Complete</button>
+                        <button class="btn btn-danger" v-else v-on:click="deleteTodo(todo.id)">Delete</button>
+                    </td>
                 </tr>
             </tbody>
         </table>

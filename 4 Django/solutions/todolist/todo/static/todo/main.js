@@ -6,7 +6,8 @@ let app = new Vue({
         todos: [],
         priorities: [],
         text_input: '',
-        priority_input: ''
+        priority_input: '',
+        sorted: false,
     },
     methods: {
         getTodos: async function () {
@@ -40,6 +41,37 @@ let app = new Vue({
             this.priority_input = ''
             if (response.data.message === 'ok') {
                 this.getTodos()
+            }
+        },
+        completeTodo: async function (id) {
+            await axios({
+                method: 'get',
+                url: `complete_todo/?todo_id=${id}`
+            })
+            this.getTodos()
+        },
+        deleteTodo: async function (id) {
+            await axios({
+                method: 'get',
+                url: `delete_todo/?todo_id=${id}`
+            })
+            this.getTodos()
+        },
+        sort: function () {
+            if (!this.sorted) {
+                this.sorted = true
+                this.todos.sort((a, b) => {
+                    if (a.text < b.text) return -1
+                    if (a.text > b.text) return 1
+                    return 0
+                })
+            } else {
+                this.sorted = false
+                this.todos.sort((a, b) => {
+                    if (a.text > b.text) return -1
+                    if (a.text < b.text) return 1
+                    return 0
+                })
             }
         }
     },

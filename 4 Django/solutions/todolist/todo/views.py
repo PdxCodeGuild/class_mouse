@@ -1,5 +1,6 @@
-from django.http.response import JsonResponse
+from django.http.response import HttpResponse, JsonResponse
 from django.shortcuts import render
+from django.utils import timezone
 import json
 
 # Create your views here.
@@ -23,7 +24,7 @@ def todos(request):
     #     })
 
     todo_items = TodoItem.objects.order_by('-priority__order', '-created_date').values(
-        'text', 'priority__name', 'completed_date')
+        'text', 'priority__name', 'completed_date', 'id')
     output = list(todo_items)
 
     return JsonResponse(output, safe=False)
@@ -45,3 +46,18 @@ def save_todo(request):
     todo.save()
 
     return JsonResponse({'message': 'ok'})
+
+
+def complete_todo(request):
+    todo_id = request.GET['todo_id']  # '?todo_id=1'
+    todo = TodoItem.objects.get(id=todo_id)
+    todo.completed_date = timezone.now()
+    todo.save()
+    return HttpResponse('ok')
+
+
+def delete_todo(request):
+    todo_id = request.GET['todo_id']
+    todo = TodoItem.objects.get(id=todo_id)
+    todo.delete()
+    return HttpResponse('ok')
