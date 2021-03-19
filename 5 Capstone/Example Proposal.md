@@ -36,27 +36,30 @@ Pryced will allow users to upload a csv, then separate individual items into bud
 
 ## Schedule
 ### Week 1
+- [ ] Learn Vue CLI
 - [ ] Set up Models
-    - [ ] User
-    - [ ] Transaction
+    - [x] User
+    - [x] Transaction
     - [ ] Category
     - [ ] Month
 - [ ] Create a dummy csv for testing
 - [ ] Create Management command to load dummy csv into db
-- [ ] Create User signup/login pages (With Styling)
-- [ ] Get User signup/login functionality working
+
 
 ### Week 2
+- [ ] Create User signup/login pages (With Styling)
+- [ ] Get User signup/login functionality working
 - [ ] Create a dashboard based on the dummy data
     - [ ] Display each category on its own with amount spent/budget amount ex: $700/$1200 (Maybe even show this as a pie graph)
     - [ ] Add modal to display transactions within a category
+
+
+### Week 3 (I plan to have a fully functional capstone by the end of week 3)
 - [ ] Create functionality for users to input data
     - [ ] Create a new Month
     - [ ] Create a new Category
     - [ ] Create a new Transaction
 - [ ] Display unbudgeted transactions in their own list to be sorted 
-
-### Week 3 (I plan to have a fully functional capstone by the end of week 3)
 - [ ] Create functionality for csv upload (This may take a while)
 - [ ] Styling and bug fixes
 
