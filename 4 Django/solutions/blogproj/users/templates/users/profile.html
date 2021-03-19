@@ -1,0 +1,12 @@
+{% extends 'users/base.html' %}
+
+{% block title %}
+{{user.username}} - Profile
+{% endblock %}
+
+{% block content %}
+<h1>Hello {{user.username}}</h1>
+{% for blog in blogs %}
+<h3><a href="{% url 'blog:detail' blog.id %}">{{blog.title}}</a></h3>
+{% endfor %}
+{% endblock %}

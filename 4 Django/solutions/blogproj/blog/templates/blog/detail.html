@@ -1,0 +1,12 @@
+{% extends 'users/base.html' %}
+
+{% block title %}
+Create Blog
+{% endblock %}
+
+{% block content %}
+<h1>Blog Detail</h1>
+<h2>{{blog.title}}</h2>
+<p>{{blog.body}}</p>
+<img src="{{blog.image.url}}" alt="" />
+{% endblock %}

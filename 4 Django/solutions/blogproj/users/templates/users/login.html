@@ -1,0 +1,18 @@
+{% extends 'users/base.html' %}
+
+{% block title %}
+Login
+{% endblock %}
+
+{% block content %}
+<div>
+    {{user.username}}
+    <form action="{% url 'users:login' %}" method="post">
+        {% csrf_token %}
+        <input type="text" placeholder="Username:" name="username" required>
+        <input type="password" placeholder="Password" name="password" required>
+        <input type="submit" value="Login">
+        <a href="{% url 'users:signup' %}">signup</a>
+    </form>
+</div>
+{% endblock %}
