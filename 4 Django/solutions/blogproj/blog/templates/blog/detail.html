@@ -6,7 +6,18 @@ Create Blog
 
 {% block content %}
 <h1>Blog Detail</h1>
+{% if blog.user == user %}
+<form action="{% url 'blog:detail' blog.id %}" method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    <input type="text" value="{{blog.title}}" name="title" placeholder="Title" required>
+    <textarea name="body" required>{{blog.body}}</textarea>
+    <img src="{{blog.image.url}}">
+    <input type="file" name="image" accept="image/*">
+    <input type="submit" value="Update">
+</form>
+{% else %}
 <h2>{{blog.title}}</h2>
 <p>{{blog.body}}</p>
 <img src="{{blog.image.url}}" alt="" />
+{% endif %}
 {% endblock %}

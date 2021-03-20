@@ -32,7 +32,30 @@ def create_blog(request):
 
 def detail(request, blog_id):
     blog = get_object_or_404(BlogPost, id=blog_id)
+
+    if request.method == 'POST' and request.user == blog.user:
+        form = request.POST
+        title = form['title']
+        body = form['body']
+        image = request.FILES.get('image', '')
+
+        blog.title = title
+        blog.body = body
+        if image:
+            blog.image = image
+        blog.save()
+
     context = {
         'blog': blog
     }
+
     return render(request, 'blog/detail.html', context)
+
+
+def all_posts(request):
+    blogs = BlogPost.objects.filter(public=True)
+    context = {
+        'blogs': blogs
+    }
+
+    return render(request, 'blog/posts.html', context)

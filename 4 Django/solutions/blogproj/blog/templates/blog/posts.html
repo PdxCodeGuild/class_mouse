@@ -1,0 +1,16 @@
+{% extends 'users/base.html' %}
+
+{% block title %}
+Create Blog
+{% endblock %}
+
+{% block content %}
+{% for blog in blogs %}
+<a href="{% url 'blog:detail' blog.id %}">
+    <h2>{{blog.title}}</h2>
+</a>
+<h4>-{{blog.user}}</h4>
+<p>{{blog.date_created}}</p>
+
+{% endfor %}
+{% endblock %}
